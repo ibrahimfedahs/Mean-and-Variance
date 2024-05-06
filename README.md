@@ -51,7 +51,6 @@ It shows the distance of a random variable from its mean. It is calcualted as
 ```
 NAME:Ibrahim Fedah
 REG NO:212223240056
-```
 import numpy as np
 L=[int(i) for i in input().split()]
 N=len(L); M=max(L) 
@@ -74,7 +73,7 @@ SD=np.sqrt(var)
 print("The Mean arrival rate is %.3f "%mean)
 print("The Variance of arrival from feeder is %.3f "%var) 
 print("The Standard deviation of arrival from feeder is %.3F "%SD)
-~~~
+```
 # Output : 
 ![Screenshot 2024-04-17 204734](https://github.com/ibrahimfedahs/Mean-and-Variance/assets/150319493/403fe496-449b-4408-a74b-1a12f196b5e1)
 
